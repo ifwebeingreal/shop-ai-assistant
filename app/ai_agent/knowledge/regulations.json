@@ -1,0 +1,40 @@
+{
+  "product": {
+    "name": "Наушники X1",
+    "price": 2490,
+    "currency": "RUB",
+    "in_stock": true
+  },
+  "delivery": {
+    "method": "courier",
+    "estimated_days": 1,
+    "time_slot": {
+      "from": "18:00",
+      "to": "21:00"
+    }
+  },
+  "returns": {
+    "period_days": 14,
+    "opened_without_defect": {
+      "allowed": true,
+      "period_days": 14
+    },
+    "after_period_allowed": false
+  },
+  "refund": {
+    "method": "original_card",
+    "processing_days": 3,
+    "days_type": "business"
+  },
+  "defective_product": {
+    "inspection_required": true,
+    "immediate_refund_guaranteed": false
+  },
+  "discounts": {
+    "allowed": false,
+    "exceptions_allowed": false
+  },
+  "orders": {
+    "individual_order_tracking_available": false
+  }
+}
